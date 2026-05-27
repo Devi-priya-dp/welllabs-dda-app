@@ -52,7 +52,7 @@ deactivate
 # ──────────────────────────────────────
 echo "[6/7] Building SvelteKit frontend..."
 cd "$RELEASE_DIR/frontend"
-npm ci
+npm install
 npm run build
 
 # ──────────────────────────────────────
